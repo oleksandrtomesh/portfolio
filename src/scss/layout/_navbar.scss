@@ -1,0 +1,9 @@
+@import '../../scss/mixins';
+
+.menu {
+    @include gradient;
+
+    a:active{
+        color: black;
+    }
+}

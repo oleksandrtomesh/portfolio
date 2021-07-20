@@ -1,0 +1,43 @@
+.contact{
+    background-color: #eaf2fa;
+    @include padding;
+
+    &__form-field{
+        position: relative;
+        display: block;
+        margin-top: 1.325rem;
+
+        &--error{
+            border: red solid 0.1rem;
+        }
+
+        &--error:focus{
+            border: red solid 0.1rem;
+        }
+    }
+
+    
+    button{
+        margin-top: 1.325rem;
+    }
+
+    .contact-form{
+
+        div{
+            position: absolute;
+            color:red;
+            font-size: small;
+            margin-left: 0.725rem;
+        }
+
+        .success{
+            position: absolute;
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            color: rgb(23, 148, 23);
+        }
+    }
+}

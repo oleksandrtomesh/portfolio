@@ -1,0 +1,33 @@
+
+.home{
+    padding: 10rem 0 5rem 0;
+
+    .main-photo{
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+        
+    }
+
+    .social-media{
+        padding-top: 1rem;
+    }
+
+    
+        .about-me{
+            p{
+                font-size: 1.125rem;
+            }
+            @include media-breakpoint-down(lg){
+                padding-left: 2rem;
+                padding-top: 2rem;
+        }
+    }
+    
+    
+
+}
+
+@import '../../components/common/icon/icon';

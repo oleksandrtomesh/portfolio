@@ -1,0 +1,18 @@
+@import '../../../scss/mixins';
+
+.icon{
+    position: relative;
+    padding: 1.325rem;
+
+    i{
+        font-size: 2rem;
+        @include absoluteCenter;
+        color: #795548;
+
+        &:hover{
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+    }
+    
+}

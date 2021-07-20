@@ -1,0 +1,15 @@
+
+
+.skills{
+    @include padding;
+    display: block;
+    width: 100%;
+    
+    background-color: #eaf2fa;
+
+    &__icon-title{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
