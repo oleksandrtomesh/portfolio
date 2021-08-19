@@ -22,7 +22,7 @@ export const Project = ({name, description, imgUrl, githubUrl, deployUrl}) => {
                             <CustomButton icon={faGithub} url={githubUrl} title="Code" />
                         </span>
                         <span>
-                            <CustomButton icon={faGlobe} url={deployUrl} title="More Details" />
+                            <CustomButton icon={faGlobe} url={deployUrl} title="Published version" />
                         </span>
                     </div>
             </div>

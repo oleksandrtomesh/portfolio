@@ -1,6 +1,7 @@
 import { faBootstrap, faCss3, faGit, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { forwardRef, useState } from 'react'
 import { Skill } from '../components/Skill'
+import { faBoxOpen, faVial  } from '@fortawesome/free-solid-svg-icons';
 
 export const Skills = forwardRef((props, ref) => {
 
@@ -10,7 +11,9 @@ export const Skills = forwardRef((props, ref) => {
         {type: faJs, title: 'JavaScript, TypeScript' }, 
         {type: faReact, title: 'ReactJS with Redux' }, 
         {type: faGit, title: 'Git' },
-        {type: faBootstrap, title: 'Bootstrap, MaterialUI' } 
+        {type: faBootstrap, title: 'Bootstrap, MaterialUI' },
+        {type: faVial, title: 'Unit tests (Jest)'}, 
+        {type: faBoxOpen, title: 'Webpack'}
         ])
 
     const mapIcons = icons.map((icon, index) => {

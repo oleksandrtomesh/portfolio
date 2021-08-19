@@ -38,7 +38,7 @@ export const Projects = forwardRef((props, ref) => {
                         <h1 className="fs-1 pb-3">Projects</h1>
                     </div>
                     <div className="col-lg-8">
-                        <div class="btn-group">
+                        <div class="btn-group" role="group">
                             <button type="button" className="btn btn-outline-primary btn-sm" data-id="all" onClick={filterItems}>All</button>
                             <button type="button" className="btn btn-outline-primary btn-sm" data-id="js" onClick={filterItems}>HTML CSS JavaScript</button>
                             <button type="button" className="btn btn-outline-primary btn-sm" data-id="react" onClick={filterItems}>React</button>
